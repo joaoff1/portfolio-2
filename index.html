@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfólio de João Pedro Henrique Bernardo, estudante do Ensino Médio e de Desenvolvimento de Sistemas, explorando interesses e possibilidades.">
+  <title>João Pedro Henrique Bernardo | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="João Pedro, página inicial"><span class="brand-mark">jp<span>.</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu de navegação">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section container" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> ESTUDANTE DE DESENVOLVIMENTO DE SISTEMAS</p>
+        <h1 id="hero-title">Oi, eu sou<br><span class="gradient-text">João Pedro.</span></h1>
+        <p class="hero-intro">Estou no 3º ano do Ensino Médio e também estudo Desenvolvimento de Sistemas. Ainda não sei se quero trabalhar com tecnologia. Por enquanto, estou pensando no que quero fazer no futuro.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#sobre">Sobre mim <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#formacao">Minha formação <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-footnote"><span class="mono">01 / 02</span><span>Ainda descobrindo meu caminho.</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Cartão gráfico com as iniciais JP">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-card">
+          <span class="card-label mono">PORTFÓLIO · 2026</span>
+          <span class="monogram">J<span>P</span></span>
+          <span class="card-caption">No meu tempo,<br>um passo de cada vez<span class="cursor">_</span></span>
+          <span class="card-spark" aria-hidden="true">✳</span>
+        </div>
+        <span class="floating-tag tag-code mono">&lt; código /&gt;</span>
+        <span class="floating-tag tag-idea">✦ gosto de ajudar</span>
+        <span class="art-orb"></span>
+      </div>
+      <a class="scroll-cue mono" href="#sobre"><span></span> ROLE PARA EXPLORAR</a>
+    </section>
+
+    <section class="section about-section" id="sobre" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 — QUEM SOU</p>
+          <h2 id="about-title">Calmo, bom ouvinte<br><span class="gradient-text">e gosto de ajudar.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">Meu nome é João Pedro Henrique Bernardo, tenho 17 anos e estou no 3º ano do Ensino Médio. Também estudo Desenvolvimento de Sistemas.</p>
+          <p>Sou uma pessoa calma e gosto de ouvir e ajudar os outros. Já errei no passado; talvez por isso eu tente ouvir sem julgar e apoiar quando posso.</p>
+          <p>Ainda não decidi se quero seguir na área de tecnologia. Estou pensando no que gosto de fazer e no caminho que quero escolher para o futuro.</p>
+          <div class="traits" aria-label="Um pouco sobre mim"><span>🤝 Gosto de ouvir</span><span>💛 Gosto de ajudar</span><span>📞 <a href="tel:+5541991577346">+55 41 99157-7346</a></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container education-section" id="formacao" aria-labelledby="education-title">
+      <div class="education-card reveal">
+        <div class="section-heading"><p class="eyebrow">02 — ESTUDOS</p><h2 id="education-title">Minha <span class="gradient-text">formação.</span></h2></div>
+        <div class="education-item"><span class="education-icon" aria-hidden="true">⌘</span><div><h3>Ensino Médio</h3><p>3º ano, em andamento</p></div><span class="education-date mono">ATUAL</span></div>
+        <div class="education-item"><span class="education-icon" aria-hidden="true">↗</span><div><h3>Desenvolvimento de Sistemas</h3><p>Estudando junto com o Ensino Médio</p></div><span class="education-date mono">ATUAL</span></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark">jp<span>.</span></span></a><p>Portfólio pessoal de João Pedro</p><span class="mono">© <span id="year">2026</span> JOÃO PEDRO</span></div></footer>
+</body>
+</html>
